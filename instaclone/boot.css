@@ -1,0 +1,87 @@
+.text{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.right{
+    height: 100%;
+    width: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    height: 100%;
+    width: 50%;
+  
+}
+.left img{
+    height: 90%;
+    width: 80%;
+    margin-top: 10vh;
+}
+.inner-div{
+    /* position: absolute; */
+    /* top: 20%; */
+    color:#000000;
+    width: 70%;
+}
+p{
+    color: black;
+}
+.inner-div button{
+    line-height: 33px;
+    
+}
+/* ---card div css */
+.container{
+    margin-top: 62px;
+    display: flex;
+    justify-content: space-around;
+}
+form{
+    width: 80%;
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+@media (min-width:300px) and (max-width:600px){
+    .text{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .left{
+        width: 100%;
+    
+    }
+    .right{
+        width: 100%;
+        margin-top: 22vh;
+       
+    }
+    .inner-div{
+        width: 80%;
+    }
+    .left img{
+        width: 100%;
+        height: 100%;
+    
+      
+    }
+    .container{
+        display: flex;
+       margin-top: 5vh;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    #card{
+        margin-left: 22vw;
+    }
+    .card{
+        margin-top: 8vh;
+    }
+    #feature{
+        width:60%
+    }
+}
